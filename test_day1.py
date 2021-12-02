@@ -21,7 +21,7 @@ def test_day_1():
         assert result == test["expected"]
 
 
-def test_day_2():
+def test_day_1_part_2():
     testcases = [
         {
             "name": "a typical list of measurements should return correct number of increases using average of 3 numbers at a time",
