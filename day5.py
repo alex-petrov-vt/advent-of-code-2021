@@ -5,15 +5,6 @@ class FloorMap:
     def __init__(self, width, height):
         self.locations = [[0 for i in range(width)] for j in range(height)]
 
-    def _initialize_locations(self, width, height):
-        result = []
-        for y in range(height):
-            row = []
-            for x in range(width):
-                row.append(0)
-            result.append(row)
-        return result
-
     def __str__(self):
         result = []
         for row in self.locations:
