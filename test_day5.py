@@ -16,13 +16,6 @@ def test_parse_line():
     assert y1 == 7
     assert y2 == 7
 
-    line = "9,7 -> 7,7"
-    x1, y1, x2, y2 = get_coordinates_from_line(line)
-    assert x1 == 9
-    assert x2 == 7
-    assert y1 == 7
-    assert y2 == 7
-
 
 def test_floor_map():
     floor_map = FloorMap(10, 10)
