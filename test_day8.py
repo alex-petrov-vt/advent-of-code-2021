@@ -1,5 +1,6 @@
 from day8 import count_ones_fours_sevens_eights, decode_output_value
 
+
 def test_count_ones_fours_sevens_eights():
     input = [
         "be cfbegad cbdgef fgaecd cgeb fdcge agebfd fecdb fabcd edb | fdgacbe cefdb cefbgd gcbe",
@@ -11,13 +12,13 @@ def test_count_ones_fours_sevens_eights():
         "dbcfg fgd bdegcaf fgec aegbdf ecdfab fbedc dacgb gdcebf gf | cefg dcbef fcge gbcadfe",
         "bdfegc cbegaf gecbf dfcage bdacg ed bedf ced adcbefg gebcd | ed bcgafe cdgba cbgef ",
         "egadfb cdbfeg cegd fecab cgb gbdefca cg fgcdab egfdb bfceg | gbdfcae bgc cg cgb",
-        "gcafb gcf dcaebfg ecagb gf abcdeg gaef cafbge fdbac fegbdc | fgae cfgab fg bagce"
+        "gcafb gcf dcaebfg ecagb gf abcdeg gaef cafbge fdbac fegbdc | fgae cfgab fg bagce",
     ]
     assert count_ones_fours_sevens_eights(input) == 26
+
 
 def test_decoding_output_value():
     input = [
         "acedgfb cdfbe gcdfa fbcad dab cefabd cdfgeb eafb cagedb ab | cdfeb fcadb cdfeb cdbaf"
-    ] 
+    ]
     assert decode_output_value(input) == 5353
-
