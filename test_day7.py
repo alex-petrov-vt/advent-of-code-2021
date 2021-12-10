@@ -1,7 +1,4 @@
-from day7 import (
-    select_horizontal_position,
-    select_horizontal_position_part_2
-)
+from day7 import select_horizontal_position, select_horizontal_position_part_2
 
 
 def test_selecting_horizontal_position_part_1():
